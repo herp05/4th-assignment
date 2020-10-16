@@ -1,0 +1,42 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+header{
+	background-color: lightblue;
+	position: fixed;
+	padding: 10px;
+	width: 100%;
+}
+li{
+	display: inline-block;
+}
+ul{
+	padding-right: 20px;
+	padding-top: 10px;
+}
+nav{
+	float: right;
+}
+a{
+	padding: 10px;
+	text-decoration: none;
+	color: black;
+	border: 2px solid black;
+}
+p{
+	font-size: 20px;
+}	
+#belownav{
+	padding-top: 150px;
+}
+.logo{
+	border: 5px solid black;
+}
+div{
+	padding: 100px;
+}
+a:hover {
+	color: green;
+}
